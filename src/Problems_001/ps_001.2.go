@@ -10,7 +10,7 @@ import "fmt"
 const PRIME_IN_ROW = 10001
 
 //Check weather a number is prime; return bool
-func checkIsPrime(num int) (bool){
+func checkIsPrime(num int) bool{
 	if num % 2 == 0 {
 		return false;
 	}
